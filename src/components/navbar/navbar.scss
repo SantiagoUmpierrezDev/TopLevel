@@ -1,0 +1,75 @@
+$navFont : 'Changa', sans-serif;
+
+
+.nav {
+    height: 10rem;
+    padding: 0 10rem;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+        &__logo {
+            color: white;
+            font-family: $navFont;
+            font-size: 3.6rem;
+            font-weight: 400;
+        }
+}
+
+.logo__span {
+    font-weight: 600;
+}
+
+.nav__list {
+    width: 30rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list__item {
+    font-size: 24px;
+    font-family: $navFont;
+    text-decoration: none;
+    list-style: none;
+      &__link {
+        color: white;
+      }
+}
+
+.animation {
+    letter-spacing: 0;
+    transition: 500ms;
+}
+
+.animation:hover,
+.animation:active {
+  letter-spacing: 5px;
+}
+
+.animation:after,
+.animation:before {
+  backface-visibility: hidden;
+  border: 1px solid rgba(#fff, 0);
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  width: 0;
+}
+
+.animation:hover:after,
+.animation:hover:before {
+  backface-visibility: hidden;
+  border-color: #fff;
+  transition: width 350ms ease-in-out;
+  width: 90%;
+}
+
+.animation:hover:before {
+  bottom: auto;
+  top: 0;
+  width: 90%;
+}
