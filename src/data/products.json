@@ -1,0 +1,164 @@
+[
+    {
+        "id":1,
+        "name":"Mouse Logitech PRO X Superlight Gaming",
+        "price": 122,
+        "img": "https://thotcomputacion.com.uy/wp-content/uploads/2022/03/Logitech-PRO-X-Superlight.png",
+        "description": "Less than 63 grams. Advanced LIGHTSPEED wireless technology with low latency. Sub-micron accuracy with HERO 25K sensor. Eliminate all obstacles with our lightest and fastest PRO wireless mouse.",
+        "stock": 10,
+        "category": "pc"
+    },
+    {
+        "id":2,
+        "name":"Mouse Logitech G502 X Plus",
+        "price": 170,
+        "img": "https://thotcomputacion.com.uy/wp-content/uploads/2022/11/5022_1_3decb42b5d6143e7a2e367eeae820283.jpg",
+        "description": "G502 X PLUS is the latest addition to the legendary G502 range. Reinvented with our very first LIGHTFORCE hybrid switches, professional-grade LIGHTSPEED wireless technology, RGB LIGHTSYNC, HERO 25K sensor, etc.",
+        "stock": 5,
+        "category": "pc"
+    }, 
+    {
+        "id":3,
+        "name":"HyperX Alloy Elite 2",
+        "price": 168,
+        "img": "https://thotcomputacion.com.uy/wp-content/uploads/2018/04/HyperX-Alloy-Elite-2-Packaging-Images-English-_US_-Layout_HyperX_Alloy_Elite_2_English_US_6_packaging_front_25_08_2020-18_32-1.png",
+        "description": "For gamers, streamers and multitaskers who need more control at their fingertips, HyperX Alloy Elite 2 is the keyboard for you. With dedicated media keys and a large volume wheel, this full-featured gaming keyboard is ready for everything from editing videos to watching movies.",
+        "stock": 4,
+        "category": "pc"
+    },
+    {
+        "id":4,
+        "name":"Razer Blackwidow V3 PRO wired / wireless keyboard",
+        "price": 250,
+        "img": "https://thotcomputacion.com.uy/wp-content/uploads/2017/12/bv3.png",
+        "description": "The world's first and most iconic mechanical gaming keyboard makes its next revolutionary evolution. Enter a new wireless meta with the Razer BlackWidow V3 Pro, featuring 3 connection modes for unmatched versatility and a satisfying gaming experience composed of the best switches and full-height keys.",
+        "stock": 5,
+        "category": "pc"
+    }, 
+    {
+        "id":5,
+        "name":"Mousepad HyperX Fury S XL Speed",
+        "price": 60,
+        "img": "https://thotcomputacion.com.uy/wp-content/uploads/2018/09/fury-s-xl.png",
+        "description": "The HyperX™ FURY Professional Gaming Mouse Pad has evenly stitched, anti-wear edges that provide a smooth surface for controlled gliding. The pad is made of a high-density fabric that provides a soft-touch surface yet has a fine texture ideal for optical mouse use. Dimensions: 900mm x 420mm",
+        "stock": 20,
+        "category": "pc"
+    }, 
+    {
+        "id":6,
+        "name":"Mouse pad Logitech G640 Cloud9 Edition",
+        "price": 31,
+        "img": "https://thotcomputacion.com.uy/wp-content/uploads/2018/02/logitech-g640-cloud9.png",
+        "description": "Large size for more space and greater mouse movement. Rubber base stays in place for intense gaming. Surface texture optimized for Logitech G mice and for maximum gaming performance. Size: 400 mm x 460 mm x 3 mm.",
+        "stock": 5,
+        "category": "pc"
+    }, 
+    {
+        "id":7,
+        "name":"NBA 2K23",
+        "price": 39,
+        "img": "https://m.media-amazon.com/images/I/81adYfJHzkL._AC_SX569_.jpg",
+        "description": "Feel a refined game in the palm of your hands on both sides of the ball in NBA 2K23.",
+        "stock": 25,
+        "category": "playstation"
+    },
+    {
+        "id":8,
+        "name":"FIFA 23",
+        "price": 60,
+        "img": "https://m.media-amazon.com/images/I/71Os+3azm8L._SX425_.jpg",
+        "description": "Experience the world's game with over 19,000 players, more than 700 teams, over 100 stadiums and more than 30 leagues.",
+        "stock": 10,
+        "category": "playstation"
+    },
+    {
+        "id":9,
+        "name":"DualShock 4",
+        "price": 59,
+        "img": "https://m.media-amazon.com/images/I/61IG46p-yHL._SX522_.jpg",
+        "description": "Precision control: the touch, shape, and sensitivity of the DualShock 4S and analog trigger buttons have been improved to offer players absolute control for all games on PlayStation 4.",
+        "stock": 15,
+        "category": "playstation"
+    },
+    {
+        "id":10,
+        "name":"PlayStation DualSense Wireless Controller",
+        "price": 74,
+        "img": "https://m.media-amazon.com/images/I/61kRMZECtOL._SX522_.jpg",
+        "description": "Bring game worlds to life: feel your actions in the simulated game and environment through haptic feedback. Experience different forces and tension at your fingertips with adaptive triggers.",
+        "stock": 7,
+        "category": "playstation"
+    },
+    {
+        "id":11,
+        "name":"God of War Ragnarök ",
+        "price": 70,
+        "img": "https://m.media-amazon.com/images/I/81Pagnfx1DL._SX425_.jpg",
+        "description": "Feel your journey through the Norse realms, made possible by immersive haptic feedback and adaptive trigger functionality.",
+        "stock": 6,
+        "category": "playstation"
+    },
+    {
+        "id":12,
+        "name":"Marvel’s Spider-Man: Miles Morales",
+        "price": 60,
+        "img": "https://m.media-amazon.com/images/I/81wXH8IqhKL._SY500_.jpg",
+        "description": "Stunning Visuals: Travel to a snowy Marvel’s New York in Marvel’s Spider-Man: Miles Morales, realized in beautiful 4K and HDR.* Experience reflections on buildings with ray tracing, and improved lighting, shadow, and character detail. An optional 60fps performance mode brings the Spider-Man universe to life.",
+        "stock": 5,
+        "category": "playstation"
+    },
+    {
+        "id":13,
+        "name":"Xbox Core Wireless Controller",
+        "price": 70,
+        "img": "https://m.media-amazon.com/images/I/61P9Y9Oo+lL._SX522_.jpg",
+        "description": "Experience the modernized design of the Xbox Wireless Controller in Pulse Red, featuring sculpted surfaces and refined geometry for enhanced comfort and effortless control during gameplay with battery usage up to 40 hours.",
+        "stock": 10,
+        "category": "xbox"
+    },
+    {
+        "id":14,
+        "name":"Xbox Elite Wireless Controller Series 2 Core",
+        "price": 120,
+        "img": "https://m.media-amazon.com/images/I/61rnJLa6OfL._SX522_.jpg",
+        "description": "Experience the Xbox Elite Wireless Controller Series 2 featuring adjustable-tension thumbsticks, wrap-around rubberized grip, and shorter hair trigger locks.",
+        "stock": 3,
+        "category": "xbox"
+    },
+    {
+        "id":15,
+        "name":"Call of Duty: Modern Warfare II",
+        "price": 70,
+        "img": "https://m.media-amazon.com/images/I/81mQ7xi9rOL._AC_SX679_.jpg",
+        "description": "Cross Gen Bundle of Call of Duty: Modern Warfare II. Welcome to the new era of Call of Duty.",
+        "stock": 5,
+        "category": "xbox"
+    },
+    {
+        "id":16,
+        "name":"Ghostbusters: Spirits Unleashed",
+        "price": 30,
+        "img": "https://m.media-amazon.com/images/I/71iKbm213OL._SY500_.jpg",
+        "description": "Immerse yourself in the Ghostbusters universe as you protect or haunt multiple unique locations throughout the game.",
+        "stock": 8,
+        "category": "xbox"
+    },
+    {
+        "id":17,
+        "name":"Just Dance 2023 Edition ",
+        "price": 28,
+        "img": "https://m.media-amazon.com/images/I/81R7QrEolOL._SX385_.jpg",
+        "description": "For the first time ever, dance to BTS with Dynamite and other top chart hits including: Harry Styles – As It Was, Lady Gaga Ft. Beyoncé - Telephone, Billie Eilish – Therefore I Am",
+        "stock": 19,
+        "category": "xbox"
+    },
+    {
+        "id":18,
+        "name":"Minecraft Dungeons: Hero Edition",
+        "price": 30,
+        "img": "https://m.media-amazon.com/images/I/71hirwQpnkL._SX385_.jpg",
+        "description": "Minecraft Dungeons Hero Edition includes the Hero Pass DLC content: a Hero Cape, two player skins, and a chicken pet. It also includes the Jungle Awakens and Creeping Winters DLC packs.",
+        "stock": 17,
+        "category": "xbox"
+    }
+    ]

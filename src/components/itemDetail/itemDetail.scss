@@ -1,0 +1,44 @@
+$productDetailFont:  'Changa', sans-serif;
+
+.div__itemDetail {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.itemDetail__img {
+    border-radius: 10rem;
+}
+
+.productInfo {
+    max-width: 100%;
+    width: 70rem;
+        &__name {
+            font-family: $productDetailFont;
+            font-size: 4rem;
+            color: white;
+        }
+}
+
+.productInfo__des {
+    @extend .productInfo__name;
+    margin-top: 4rem;
+    font-size: 2rem;
+}
+
+.productInfo__price {
+    @extend .productInfo__des
+}
+
+.productInfo__stock {
+    @extend .productInfo__des;
+}
+
+.goBackBtn {
+    font-family: $productDetailFont;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    margin-top: 4rem;
+    cursor: pointer;
+}

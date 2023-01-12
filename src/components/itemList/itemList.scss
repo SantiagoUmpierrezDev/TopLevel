@@ -1,0 +1,13 @@
+.div__itemList {
+    
+}
+
+.itemList__div {
+    width: 1920px;
+    margin-top: 5rem;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5rem;
+}

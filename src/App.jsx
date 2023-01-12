@@ -1,6 +1,8 @@
 import './App.css'
 import { Navbar } from './components/navbar/Navbar'
-import { ItemListContainer } from './components/slogan/ItemListContainer'
+import { ItemDetailContainer} from "./components/itemDetailContainer/ItemDetailContainer"
+import { ItemListContainer } from './components/itemListContainer/ItemListContainer'
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 
 
@@ -8,10 +10,18 @@ import { ItemListContainer } from './components/slogan/ItemListContainer'
 function App() {
   
   return (
-    <div>
-        <Navbar />
-        <ItemListContainer greeting={"IT'S NOT JUST A GAME"} subGreeting = {"IT'S A COMPETITION"}/>
-    </div>
+    <BrowserRouter>
+    
+    <Navbar />
+
+    <Routes>
+      <Route path='/' element = { <ItemListContainer/> }/>
+      <Route path="/products/:categoryId" element={ <ItemListContainer /> }/>
+      <Route path="/detail/:itemId" element={ <ItemDetailContainer />} />
+      <Route path="*" element={ <Navigate to={"/"}/> }/>
+    </Routes>
+    
+    </BrowserRouter>
   )
 }
 
