@@ -5,10 +5,10 @@ export const Item = ({ name, img, price, id}) => {
 
     return (
         <div className="productCard">
-            <img
+            <Link to={`/detail/${id}`}><img
             className="div__img"
             src={img}
-            />
+            /></Link>
             <div className="productInformation">
                 <div className="pI__div">
                     <p className="div__paragraph">{name}</p>

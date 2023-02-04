@@ -2,12 +2,13 @@ $navFont : 'Changa', sans-serif;
 
 
 .nav {
-    height: 10rem;
+    height: 7rem;
     padding: 0 10rem;
     width: 100%; 
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    background-color: #101D42;
         &__logo {
             color: white;
             font-family: $navFont;

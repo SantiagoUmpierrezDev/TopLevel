@@ -1,0 +1,136 @@
+$checkOutFont:  'Changa', sans-serif;
+
+.checkout__div {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    width: 120rem;
+    margin-left: auto;
+    margin-right: auto;
+        &__form {
+            width: 100%;
+            width: 50rem;
+                &__h2 {
+                    @extend .payment__div__h2;
+                }
+        }
+}
+
+.checkout__form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+        &__label {
+            font-family: $checkOutFont;
+            font-size: 18px;
+        }
+        &__inputs {
+            font-family: $checkOutFont;
+            font-size: 18px;
+            width: 100%;
+            width: 50rem;
+            height: 4rem;
+            border: 1px solid black;
+            border-radius: 0.5rem;
+            padding: 0.5rem;
+        }
+        &__error {
+            font-family: $checkOutFont;
+            font-size: 12px;
+            color: red;
+        }
+}
+
+.payment__div {
+    @extend .checkout__div__form;
+        &__h2 {
+            font-family: $checkOutFont;
+            font-size: 22px;
+        }
+}
+
+input:focus {
+    outline: none;
+}
+
+.submitBtn {
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    font-family: $checkOutFont;
+    font-size: 18px;
+    padding: 0.5rem;
+    width: 20rem;
+    height: 4rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+.submitBtn:hover {
+    background-color: #101D42;
+    color: white;
+}
+
+.billingSummary__div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+        &__p {
+            font-family: $checkOutFont;
+            font-size: 18px;
+        }
+        &__pDisclaimer {
+            @extend .billingSummary__div__p;
+            margin-top: 2rem;
+            color: #bfc3c9;
+        }
+}
+
+.order__div {
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    background-color: #101D42;
+    width: 50rem;
+    height: 30rem;
+    border-radius: 10rem;
+    padding: 3rem;
+    text-align: center;
+        &__h2 {
+            font-family: $checkOutFont;
+            font-size: 20px;
+            color: white;
+        }
+        &__p {
+            font-family: $checkOutFont;
+            font-size: 18px;
+            color: white;
+            margin-bottom: 8rem;
+                &__span {
+                    font-weight: 600;
+                }
+        }
+        &__link {
+            border: 1px solid black;
+            border-radius: 1rem;
+            padding: 1rem;
+            background-color: white;
+            color: white;
+            font-family: $checkOutFont;
+            font-size: 18px;
+            transition: 500ms;
+            color: black;
+            transition: 500ms;
+        }
+}
+
+.order__div__link:hover {
+    border: 1px solid white;
+    color: white;
+    background-color: #101D42;
+}

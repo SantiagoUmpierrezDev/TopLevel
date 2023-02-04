@@ -1,0 +1,149 @@
+$cartFont:  'Changa', sans-serif;
+
+.cart__div {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 100%;
+    height: 100%;
+    width: 100rem;
+        &__h1{ 
+            font-family: $cartFont;
+            font-size: 30px;
+        }
+}
+
+.div__table {
+    width: 100%;
+    width: 100rem;
+    border-collapse: collapse; 
+}
+
+.thead__tr {
+    background-color: #E6E6E6; 
+}
+
+
+.crossBtn {
+    background-color: white;
+    border: none;
+    color: red;
+    cursor: pointer;
+    font-size: 21px;
+}
+
+.table__img {
+    width: 100%;
+    height: 100%;
+    max-width: 13rem;
+    height: 13rem;
+    object-fit: contain;
+}
+
+.tr__td__cross {
+    text-align: center;
+}
+
+.tr__td__img {
+    text-align: center;
+    width: 100%;
+    width: 25rem;
+}
+
+.tr__td {
+    font-family: $cartFont;
+    font-size: 16px;
+    text-align: center
+}
+.td__name {
+    width: 100%; 
+    width: 35rem;
+}
+
+.td__quantity {
+    width: 100%;
+    width: 10rem;
+}
+
+.td__total {
+    width: 100%;
+    width: 15rem;
+}
+
+.td__inputNumber {
+    font-family: $cartFont;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    width: 66px;
+    height: 39px;
+}
+
+.continueBtn {
+    margin-top: 5rem;
+    width: 100%;
+    height: 5rem;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    font-family: $cartFont;
+    font-size: 20px;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.continueBtn:hover {
+    background-color: #101D42;
+    color: white;
+}
+
+.cartTotal__div {
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.5rem;
+    width: 30rem;
+    background-color: #E6E6E6;
+    text-align: center;
+    font-family: $cartFont;
+    font-size: 20px;    
+    font-weight: 600;
+} 
+
+
+.emptyCartBtn {
+    margin-top: 10rem;
+    width: 100%;
+    height: 5rem;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    font-family: $cartFont;
+    font-size: 20px;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.emptyCartBtn:hover {
+    background-color: #101D42;
+    color: white;
+}
+
+.emptyCart__div {
+    width: 100%;
+    padding: 1.5rem;
+    background-color: #F7F6F7;
+    display: flex;
+    align-items: center;
+}
+
+.cartEmpty__p {
+    font-family: $cartFont;
+    font-size: 20px;
+}
+
+.emptyCart__icon {
+    margin-right: 3rem;
+}

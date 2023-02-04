@@ -16,7 +16,6 @@ html {
 }
 
 :root {
-  background-color: #101D42;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -27,4 +26,9 @@ html {
 a {
   list-style: none;
   text-decoration: none;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+   opacity: 1;
 }

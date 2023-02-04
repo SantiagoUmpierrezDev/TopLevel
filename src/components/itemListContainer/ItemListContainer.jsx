@@ -2,30 +2,38 @@ import './itemListContainer.scss'
 import { ItemList } from "../itemList/ItemList"
 import { useParams } from "react-router-dom"
 import { useEffect, useState } from "react"
-import { DataRequest } from '../../helpers/dataRequest'
+import { collection, getDocs, limit, query, where } from "firebase/firestore"
+import { db } from "../../firebase/firebaseConfig"
 
 export const ItemListContainer = () => {
 
     const [products, setProducts] = useState([])
+    const [loading, setLoading] = useState(true)
     const { categoryId } = useParams()
    
     useEffect(() => {
-        DataRequest()
-            .then((res) => {
-                if (categoryId) {
-                    setProducts( res.filter(prod => prod.category === categoryId) )
-                } else {
-                    setProducts(res)
-                }
+        setLoading (true)
+        const productsRef = collection(db, "Products")
+        const q = categoryId ? query(productsRef, where("category", "==", categoryId) ) : productsRef
+        getDocs(q)
+            .then((resp) => {
+                setProducts( resp.docs.map((doc) => {
+                    return {
+                        ...doc.data(),
+                        id: doc.id
+                    }
+                }))
             })
-            .catch((err) => {
-                console.log(err)
+            .finally(() => {
+                setLoading(false)
             })
-    }, [categoryId])
+        }, [categoryId])
 
     return (
-        <div className=''>
-        <ItemList products={products}/>
+        <div>
+            {
+                loading ? <div className='div__loading'><h1 className='div__loading__h1'>Loading...</h1></div> : <ItemList products={products}/>
+            }
         </div>
     )
 }

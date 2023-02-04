@@ -10,8 +10,10 @@ export const Navbar = () => {
                     <li className='list__item animation'><Link className='list__item__link'  to="/products/playstation" >PLAYSTATION</Link></li>
                     <li className='list__item animation'><Link className='list__item__link'  to="/products/xbox" >XBOX</Link></li>
                     <li className='list__item animation'><Link className='list__item__link'  to="/products/pc" >PC</Link></li>
-                    <CartWidget />
                 </ul>
+                <div className='nav__div'>
+                    <CartWidget />
+                </div>
             </nav>
     )
 

@@ -1,13 +1,16 @@
 import './cartWidget.scss'
 import { CiShoppingCart } from 'react-icons/ci';
+import { Link } from 'react-router-dom'
+import { useCartContext } from '../../context/cartContext';
 
 export const CartWidget = () => {
+
+    const {totalQuantity} = useCartContext()
+
     return (
         <li className='list__item'>
-            <a href="#" className='cart__icon'>
-            <CiShoppingCart />
-            <span className='cart__counter'>21</span>
-            </a>
+                <Link className='cartLink' to='/cart'> <CiShoppingCart /> </Link>
+                <span className='cart__counter'>{totalQuantity()}</span>  
         </li>
     )
 }
