@@ -2,7 +2,7 @@ import './checkout.scss'
 import { useState } from "react"
 import { Link, Navigate } from "react-router-dom"
 import { useCartContext } from '../../context/cartContext'
-import { db } from "../../firebase/fireBaseConfig"
+import { db } from "../../firebase/firebaseConfig"
 import { collection, writeBatch, documentId, getDocs, query, where, addDoc } from "firebase/firestore"
 import { Formik } from "formik"
 import * as Yup from 'yup'
