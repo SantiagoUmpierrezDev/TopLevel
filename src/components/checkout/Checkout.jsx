@@ -210,7 +210,7 @@ export const Checkout = () => {
                             />
                             {errors.mobilePhone && <p className='checkout__form__error'>{errors.mobilePhone}</p>}
 
-                            <button className="submitBtn" type="submit">Pay and place order</button>
+                            <button className="submitBtn" type="submit">Place order</button>
                         </form>
                     )}
                 </Formik>
