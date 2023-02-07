@@ -10,7 +10,7 @@ TopLevel is a digital store focused on providing users of all plataforms with ga
 
 ```
 git clone https://github.com/SantiagoUmpierrezDev/TopLevel.git //Clone the repository
-cd TopLevel // Move into the project
+cd TopLevel //Move into the project
 npm install //Install dependencies
 npm run dev //Run it
 ```
