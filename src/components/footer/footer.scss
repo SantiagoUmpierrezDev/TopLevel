@@ -1,0 +1,34 @@
+$footerFont:  'Changa', sans-serif;
+
+.footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #101D42;
+    width: 100%;
+    height: 10rem;
+        &__socialMedia {
+            color: white;
+        }
+        &__gmail {
+            @extend .footer__socialMedia;
+            font-family: $footerFont;
+            display: flex;
+            align-items: center;
+            font-size: 20px;
+                &__p {
+                    margin-right: 2rem;
+                }
+        }
+        &__icons {
+            margin-left: 2rem;
+            font-size: 25px;
+            cursor: pointer;
+        }
+}
+
+.envelopeIcon {
+    position: relative;
+    top: 4px;
+}

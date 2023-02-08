@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { CartProvider } from "./context/cartContext"
 import { Cart } from "./components/cart/cart"
 import { Checkout } from './components/checkout/Checkout';
-
+import { Footer } from './components/footer/footer'
 
 
 function App() {
@@ -27,7 +27,9 @@ function App() {
           <Route path='/checkout' element = { <Checkout /> } />
           <Route path="*" element={ <Navigate to={"/"}/> }/>
         </Routes>
-      
+
+        <Footer />
+
       </BrowserRouter>
     
     </CartProvider>
