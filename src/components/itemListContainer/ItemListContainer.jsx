@@ -2,7 +2,7 @@ import './itemListContainer.scss'
 import { ItemList } from "../itemList/ItemList"
 import { useParams } from "react-router-dom"
 import { useEffect, useState } from "react"
-import { collection, getDocs, limit, query, where } from "firebase/firestore"
+import { collection, getDocs, query, where } from "firebase/firestore"
 import { db } from "../../firebase/firebaseConfig"
 
 export const ItemListContainer = () => {
@@ -25,14 +25,22 @@ export const ItemListContainer = () => {
                 }))
             })
             .finally(() => {
-                setLoading(false)
+                setTimeout (() => {
+                    setLoading(false)
+                }, 1000)
             })
         }, [categoryId])
 
     return (
         <div>
             {
-                loading ? <div className='div__loading'><h1 className='div__loading__h1'>Loading...</h1></div> : <ItemList products={products}/>
+                loading ? 
+                <div class="loader">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                </div>
+                : <ItemList products={products}/>
             }
         </div>
     )

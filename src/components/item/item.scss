@@ -1,9 +1,30 @@
 $productFont:  'Changa', sans-serif;
 
 .productCard {
+    background-color: white;
+    border: 1px solid black;
     margin-top: 5rem;
     text-align: center;
+    width: 35rem;
+    height: 45rem;
+    box-sizing: border-box;
+    border: 1px solid white;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    border-radius: 17px;
+    cursor: pointer;
+    transition: all 500ms;
+    user-select: none;
+    font-weight: bolder;
 }
+
+.productCard:hover {
+    border: 1px solid rgba(33,33,33, 0.3);
+    transform: scale(1.05);
+  }
+  
+.productCard:active {
+    transform: scale(0.95) rotateZ(1.7deg);
+  }
 
 .div__img {
     width: 100%;
@@ -67,7 +88,11 @@ $productFont:  'Changa', sans-serif;
     transition: 500ms;
 }
 
+
 .shopNowBtn:hover {
     background-color: #101D42;
     color: white;
 }
+
+  
+  
